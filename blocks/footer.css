@@ -1,0 +1,9 @@
+.footer{
+margin: 60px auto;
+display: flex;
+justify-content: center;
+}
+.footer__text {
+margin: 0;
+padding: 0;
+}
