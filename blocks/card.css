@@ -6,6 +6,7 @@
     height: 413px;
     display: block;
     object-fit: center;
+    border-radius: 8px;
 }
 .card__content {
     display: flex;  
@@ -25,4 +26,5 @@
     padding: 4px 0;
     font-size: 20;
     font-weight: 500;
+    line-height: 1.2;
 }
