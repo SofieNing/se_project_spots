@@ -6,7 +6,11 @@
     padding:0;
     column-gap: 20px;
     grid-template-columns: repeat(auto-fit, 413px);
-    justify-content: center;
-    background-color: azure;
+    justify-content: center;    
     border-bottom: 1px rgba(33,33,33, 0.4) solid;    
+}
+@media (max-width:627px) {
+    .cards__list {        
+    grid-template-columns: repeat(auto-fit, 288px);
+    }
 }
