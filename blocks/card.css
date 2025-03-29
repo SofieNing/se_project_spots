@@ -23,4 +23,6 @@
 .card__title {
     margin: 12px 0 36px;
     padding: 4px 0;
+    font-size: 20;
+    font-weight: 500;
 }

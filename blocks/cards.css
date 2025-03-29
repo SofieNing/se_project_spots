@@ -4,7 +4,9 @@
     list-style-type: none;
     display: grid;
     padding:0;
-    gap: 40px 20px;
+    column-gap: 20px;
     grid-template-columns: repeat(auto-fit, 413px);
     justify-content: center;
+    background-color: azure;
+    border-bottom: 1px rgba(33,33,33, 0.4) solid;    
 }
