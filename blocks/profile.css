@@ -54,9 +54,7 @@
 }
 .profile__add-btn {
     display: flex;
-    column-gap: 8px;
-    justify-content: center;
-    align-items: baseline;
+    /* align-items: center; */
     color: #FCF5e5;
     background-color: #212121;
     margin-left: auto;
