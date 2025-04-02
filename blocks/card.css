@@ -27,10 +27,10 @@
     opacity: 1;
 }
 .card__title {
-    max-width: 250px;
+    max-width: 350px;
     margin: 12px 0 36px;
     padding: 4px 0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     text-overflow: ellipsis;
@@ -45,6 +45,8 @@
     .card__title {
         margin: 12px 0 22px;
         padding: 0;
+        font-size: 16px;
+        max-width: 250px;
     }
 .card__like-btn {
     width: 20px;
