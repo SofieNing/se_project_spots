@@ -1,9 +1,8 @@
 .footer{
-margin: 60px 0;
 display: flex;
 justify-content: center;
 margin: 0;
-padding: 0;
+padding: 60 0;
 font-weight: 400;
 font-size: 16px;
 line-height: 1;
