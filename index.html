@@ -19,15 +19,15 @@
             <section class="profile page__section">
                 <img src="./images/avatar.jpg" alt="Bessie Coleman avatar" class="profile__avatar">
                 <div class="profile__column">
-                    <!-- <h1 class="profile__name">Bessie Coleman</h1> -->
-                    <h1 class="profile__name">Aliaune Damala Bouga Time Bongo Puru Nacka Lu LuL lu Badara Akon</h1>
-                    <!-- <p class="profile__description">Civil Aviator</p> -->
-                    <p class="profile__description">Known mononymously as Akon (/'eikan/), is a Senegalese-American singer, record producer, and entrepreneur. An inflential figure in modern world.</p>
+                    <h1 class="profile__name">Bessie Coleman</h1>
+                    <!-- <h1 class="profile__name">Aliaune Damala Bouga Time Bongo Puru Nacka Lu LuL lu Badara Akon</h1> -->
+                    <p class="profile__description">Civil Aviator</p>
+                    <!-- <p class="profile__description">Known mononymously as Akon (/'eikan/), is a Senegalese-American singer, record producer, and entrepreneur. An inflential figure in modern world.</p> -->
                     <button type="button" class="profile__edit-btn">
                         <img src="./images/pencil.svg" alt="pencil icon"/>Edit Profile
                     </button>                    
-                </div>
-                <button type="button" class="profile__add-btn">
+                </div>                
+                <button type="button" class="profile__add-new-btn">
                     <img src="./images/cross.svg" alt="plus icon"/>New post
                 </button>
             </section>
@@ -99,7 +99,12 @@
             <p class= footer__copyright>2025 @ Spots</p>
         </footer>
 
-        <div class="modal modal_is-opened">
+
+
+
+
+        <div class="modal" id="edit-profile-modal">
+        <!-- <div class="modal modal_is-opened"> -->
             <div class="modal__container">
                 <div class="modal__edit">
                     <h2 class="modal__title">Edit Profile</h2>
@@ -110,7 +115,7 @@
                     <input 
                             id="profile-name-input" 
                             type="text" 
-                            class="modal__input" 
+                            class="modal__input"              
                             placeholder="Type your name"
                             />
                   
@@ -125,16 +130,22 @@
                 </form>
             </div>
         </div>
-        <div class="modal modal_is-opened">
+
+
+
+
+
+        <!-- <div class="modal modal_is-opened"> -->
+        <div class="modal" id="new-post-modal">
             <div class="modal__container">
                 <div class="modal__edit">
                     <h2 class="modal__title">New Post</h2>
                     <button type="button" class="modal__close-btn"></button>                   
                 </div>
                 <form class="modal__form">
-                    <label for="card-image-input" class="modal__label">Image Link</label>
+                    <label for="card-image-link-input" class="modal__label">Image Link</label>
                     <input 
-                            id="card-image-input" 
+                            id="card-image-link-input" 
                             type="url" 
                             class="modal__input" 
                             placeholder="Place a link to the picture"
@@ -150,9 +161,9 @@
                 </form>
             </div>
         </div>
-
-
-
     </div>
+    
+    <script src="./script/index.js"></script>
+
 </body>
 </html>

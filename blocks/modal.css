@@ -10,9 +10,14 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    visibility: hidden;
+    transition: visibility 0s linear 1s, opacity 0.5s linear;
+    opacity: 0;
 }
 .modal_is-opened {
     visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
 }
 .modal__container {
     max-width: 730px;
@@ -33,6 +38,12 @@
     border: none;
     padding: 0;
 }
+.modal__close-btn:hover{
+cursor: pointer;
+}
+
+
+
 .modal__title {  
     size: 32px;
     margin: 0 0 32px;
@@ -60,8 +71,9 @@
     opacity: 0.4;
     border-radius: 8px;  
     border: 1px solid #2121213d;
-
 }
+
+
 .modal__submit-btn {
     border: none;
     border-radius: 8px;
@@ -72,6 +84,8 @@
     max-width: 156px;
     max-height: 52px;
 }
+
+
 
 @media (max-width: 627px) {
     .modal__container{
