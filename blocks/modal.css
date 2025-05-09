@@ -39,7 +39,7 @@
     border: none;
     padding: 0;
     opacity: 0.4;
-    transition: opacity 0.3s ease;
+    /* transition: opacity 0.3s ease; */
 }
 .modal__close-btn:hover{
     opacity: 1;
@@ -77,8 +77,11 @@
     border-radius: 8px;  
     border: 1px solid #21212166;
 }
+.modal__input:hover {
+    border-color: rgba(33,33,33,1);
+}
 .modal__input::placeholder {
-    color:rgba(33,33,33,0.3);
+    opacity: 0.3;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -99,19 +102,20 @@
 }
 .modal__submit-btn:hover {
     cursor: pointer;
+    opacity:0.8
 }
 
 
 @media (max-width: 627px) {
     .modal__container{
-        padding: 12px;
+        padding: 22px 12px 12px;
     }
     .modal__title {
         font-size: 20px;
         margin: 0 0 24px;
     }
     .modal__input {
-        size: 16px;
+        font-size: 16px;
         padding: 16px 0 12px;
         margin: 0 0 24px;
     }
