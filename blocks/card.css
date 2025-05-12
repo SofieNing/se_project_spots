@@ -26,8 +26,7 @@
 .card__like-btn:hover {
     cursor: pointer;
     opacity: 1;
-    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
-}
+   }
 .card__title {
     max-width: 350px;
     margin: 12px 0 36px;

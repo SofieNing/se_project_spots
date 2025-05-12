@@ -39,12 +39,12 @@
     border: none;
     padding: 0;
     opacity: 0.4;
-    /* transition: opacity 0.3s ease; */
+    transition: opacity 0.3s ease;
 }
 .modal__close-btn:hover{
     opacity: 1;
     cursor: pointer;
-    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    transition-delay: 0s;
 }
 .modal__title {  
     font-size: 32px;
@@ -72,6 +72,7 @@
     margin: 0 0 32px;
     padding: 16px 12px;
     font-size: 20px;
+    font-weight: 500;
     line-height: 100%;
     color: rgba(33,33,33,1);
     border-radius: 8px;  
@@ -81,12 +82,7 @@
     border-color: rgba(33,33,33,1);
 }
 .modal__input::placeholder {
-    opacity: 0.3;
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 100%;
-}
+    color: rgba(33,33,33,0.3);}
 
 .modal__submit-btn {
     width: 100%; 
@@ -100,10 +96,12 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 100%;
-}
+    transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+    }
 .modal__submit-btn:hover {
     cursor: pointer;
-    opacity:0.8
+    opacity:0.8;
+    transition-delay: 0s;
 }
 
 
@@ -117,7 +115,6 @@
     }
     .modal__input {
         font-size: 16px;
-        padding: 16px 0 12px;
         margin: 0 0 24px;
     }
     .modal__submit-btn {
