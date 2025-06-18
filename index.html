@@ -33,7 +33,17 @@
             </section>
             <section class="cards page__section">
                 <ul class="cards__list">
-                    <li class="card">
+                    <template id="card__template">
+                        <li class="card" >
+                            <button label = "Delete card" type="button" class="card__delete-btn"></button>
+                            <img class="card__image" />                            
+                            <div class="card__content">
+                                <h2 class="card__title"></h2>
+                                <button label = "Like card" type="button" class="card__like-btn"></button>                                
+                            </div>                            
+                        </li>
+                    </template>
+                    <!-- <li class="card">
                         <img src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg" 
                         alt="Val Thorens" 
                         class="card__image"/>
@@ -91,7 +101,7 @@
                             <button type="button" class="card__like-btn">                               
                             </button>
                         </div>
-                    </li>                                 
+                    </li>                                  -->
                 </ul>
             </section>            
         </main>       
@@ -161,9 +171,21 @@
                 </form>
             </div>
         </div>
-    </div>
     
-    <script src="./script/index.js"></script>
+    
 
+        <!-- <div class="modal modal_type_preview modal_is-opened" id="preview-modal"> -->            
+        <div class="modal modal_type_preview" id="preview-modal">
+            <div class="modal__image-container">
+                <button aria-label="close modal" class="modal__preview-btnClose"></button>
+                <img class="modal__image"/>
+                <p class="modal__caption">Golden Gate Bridge</p>
+            </div>
+        </div>    
+    </div> 
+
+    
+    <script src="./script/index.js"></script> 
+    
 </body>
 </html>
