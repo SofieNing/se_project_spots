@@ -29,7 +29,7 @@
     max-width: 730px;
     width: 100%;
     border-radius: 8px;
-    /* background-color: #e91010;  */
+    background-color: #fff;
     box-sizing: border-box;
     padding: 32px 50px;
     position:relative;
@@ -129,7 +129,7 @@ position: relative;
 
 .modal__image {
 max-height: 80vh;
-max-width: 80vh;
+max-width: 80vw;
 display: block;
 width: 100%;
 object-fit: contain;
