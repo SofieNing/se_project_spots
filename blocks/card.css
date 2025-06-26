@@ -1,7 +1,7 @@
-.card {       
+.card {
     max-width: 413px;
     position: relative;
-}    
+}
 .card__image {
     width: 413px;
     height: 413px;
@@ -9,12 +9,12 @@
     object-fit: cover;
     border-radius: 8px;
 }
-.card__image:hover{
+.card__image:hover {
     cursor: pointer;
 }
 
 .card__content {
-    display: flex;  
+    display: flex;
     align-items: baseline;
     justify-content: space-between;
 }
@@ -31,7 +31,7 @@
 .card__like-btn:hover {
     cursor: pointer;
     opacity: 1;
-   }
+}
 .card__like-button_active {
     background-image: url(../images/redheart.svg);
     opacity: 1;
@@ -66,7 +66,7 @@
     white-space: nowrap;
     overflow: hidden;
 }
-@media (max-width:627px) {
+@media (max-width: 627px) {
     .card__image {
         width: 288px;
         height: 288px;
@@ -77,8 +77,8 @@
         font-size: 16px;
         max-width: 250px;
     }
-.card__like-btn {
-    width: 20px;
-    height: 18px;
-}
+    .card__like-btn {
+        width: 20px;
+        height: 18px;
+    }
 }
