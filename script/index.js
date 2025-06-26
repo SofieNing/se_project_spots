@@ -35,24 +35,18 @@ const initialCards = [
 const editProfileModal = document.querySelector("#edit-profile-modal");
 // const Modal = document.querySelector("#edit-profile-modal");
 const editProfileEditBtn = document.querySelector(".profile__edit-btn");
-const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
+// const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn");
 const closeButtons = document.querySelectorAll(".modal__close-btn");
 
 const newPostModal = document.querySelector("#new-post-modal");
 const newPostAddBtn = document.querySelector(".profile__add-new-btn");
-const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
+// const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
 const editProfileForm = editProfileModal.querySelector(".modal__form");
 const profileNameElement = document.querySelector(".profile__name");
-const profileDescriptionElement = document.querySelector(
-    ".profile__description"
-);
-const editProfileNameInput = editProfileModal.querySelector(
-    "#profile-name-input"
-);
-const editProfileDescriptionInput = editProfileModal.querySelector(
-    "#profile-description-input"
-);
+const profileDescriptionElement = document.querySelector(".profile__description");
+const editProfileNameInput = editProfileModal.querySelector("#profile-name-input");
+const editProfileDescriptionInput = editProfileModal.querySelector("#profile-description-input");
 
 const addNewPostForm = newPostModal.querySelector(".modal__form");
 const CardImageLinkInput = newPostModal.querySelector("#card-image-link-input");
@@ -66,7 +60,7 @@ const cardsList = document.querySelector(".cards__list");
 const previewModal = document.querySelector("#preview-modal");
 const previewImageEl = previewModal.querySelector(".modal__image");
 const previewCaptionEl = previewModal.querySelector(".modal__caption");
-const previewCloseBtn = previewModal.querySelector(".modal__preview-btnClose");
+// const previewCloseBtn = previewModal.querySelector(".modal__close-btn");
 
 function openModal(modal) {
     modal.classList.add("modal_is-opened");
